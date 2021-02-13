@@ -22,7 +22,9 @@ São necessárias algumas bibliotecas do node:
     <li>requirejs</li>
     <li>socket.io</li>
     <li>uniqid</li>
-<ul>
+</ul>
+
+
 Voce pode instalar pelo comando abaixo que instala todas as dependencias de uma vez, ou instalalas uma a uma:
 
 ```
