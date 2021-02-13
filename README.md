@@ -12,11 +12,24 @@ Você pode baixar neste <a href="https://nodejs.org/en/download/">link</a> ou us
 ```
 $ npm install node
 ```
-São necessárias algumas bibliotecas do node, listadas abaixo:
+São necessárias algumas bibliotecas do node:
+<ul>
+    <li>browserify
+    <li>fs
+    <li>google-protobuf
+    <li>http
+    <li>jquery
+    <li>requirejs
+    <li>socket.io
+    <li>uniqid
+<ul>
+Voce pode instalar pelo comando abaixo que instala todas as dependencias de uma vez, ou instalalas uma a uma:
+
 ```
 $ npm install 
 
 ```
+
 #### Execute primeiro o servidor
 ```
 $ node app.js
