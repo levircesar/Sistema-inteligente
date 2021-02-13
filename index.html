@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Sistemas Distribuidos</title>
+	<meta charset="UTF-8">
+    <meta name="description" content="conteudo">
+    <meta cname="keywords" content="palavras,separadas,por,virgula">
+    <meta name="author" content="Levir">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+<body>
+	<!-- Div com o formulário de acesso, para inserir o apelido -->
+
+
+	<div id='sala_chat'>
+		<sidebar >
+			<div class="Menu">
+				<h2>Painel de Comandos</h2>
+				<p>Sistemas Distribuidos</p>
+			</div>
+			<div class="sidebarBtn" id="lampada" >Lampada ON/OFF</div>
+			<div class="sidebarBtn"  id="televisao" >televisao ON/OFF</div>
+			<div class="sidebarBtn"  id="arcondicionado" >arcondicionado ON/OFF</div>
+			<div class="sidebarBtn"  id="aumentarTemp" >Aumentar temp</div>
+			<div class="sidebarBtn"  id="diminuirTemp" >Diminuir temp</div>
+			<div class="sidebarBtn"  id="teste1" >Exiber temperatura no Servidor</div>
+			<div class="sidebarBtn"  id="allStatus" >Todos os status no Servidor</div>
+			
+			<div class="sidebarBtn" id="sair">SAIR</div>
+		</sidebar>
+	
+		<div  class="painel">
+			
+			<div class="w50">
+				<h2>Lampada</h2>
+				<div id="luz" class="boxer" ></div>
+			</div>
+			<div class="w50">
+				<h2>Televisao</h2>
+				<div id="visor" class="boxer" ></div>
+			</div>
+			
+			<div class="w100">
+				<h2>Ar Condicionado</h2>
+				<div id="led" class="boxer" ></div>
+				<form id="valorTemp">
+					<input type="text" name="temp"  >
+				</form>
+			</div>
+	
+			
+				
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+
+	<div class="clear"></div>
+
+		<div id='acesso_usuario'>
+			<h2>Painel</h2>
+			<form id='login'>
+				<input required  type='text' placeholder='Insira o IP' name='ip_input' id='ip_input' />
+				<input required  type='text' placeholder='Insira a porta do servidor' name='porta_serv' id='porta_serv' />
+				<input class="btn1" type='submit' value='Entrar' />
+			</form>
+		</div>
+
+		
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script src="bundle.js"></script>
+</body>
+</html>

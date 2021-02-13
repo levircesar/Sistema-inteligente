@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Dispositivo {
+    int32 id= 1;
+    string name = 2;
+    bool status = 3;
+    float temp = 4;
+}
+
+message Dispositivos{
+    repeated Dispositivo dispositivos =1;
+}

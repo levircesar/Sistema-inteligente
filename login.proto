@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message Login {
+    string ip= 1;
+    int32 porta = 2;
+}
