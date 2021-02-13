@@ -14,14 +14,14 @@ $ npm install node
 ```
 São necessárias algumas bibliotecas do node:
 <ul>
-    <li>browserify
-    <li>fs
-    <li>google-protobuf
-    <li>http
-    <li>jquery
-    <li>requirejs
-    <li>socket.io
-    <li>uniqid
+    <li>browserify</li>
+    <li>fs</li>
+    <li>google-protobuf</li>
+    <li>http</li>
+    <li>jquery</li>
+    <li>requirejs</li>
+    <li>socket.io</li>
+    <li>uniqid</li>
 <ul>
 Voce pode instalar pelo comando abaixo que instala todas as dependencias de uma vez, ou instalalas uma a uma:
 
