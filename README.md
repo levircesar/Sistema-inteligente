@@ -5,6 +5,7 @@ Sistema inteligente com comunicação cliente/servidor utilizando Protobuf imple
 
 - [X] Comunicação TCP CLiente - Servidor
 - [X] Utilizar Socket
+- [ ] Trocar Id(int32) por Ip(string)
 - [ ] Clean Code
 
 ### Para rodar é importante ter o Node.js na sua maquina
